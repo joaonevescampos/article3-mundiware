@@ -4,51 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/config/globals.css">
-    <link rel="stylesheet" href="./assets/styles/components/header.css">
     <link rel="stylesheet" href="./assets/styles/config/reset.css">
+    <link rel="stylesheet" href="./assets/styles/components/header.css">
+    <link rel="stylesheet" href="./assets/styles/components/aside.css">
+    <link rel="stylesheet" href="./assets/styles/components/main.css">
+    <link rel="stylesheet" href="./assets/styles/components/footer.css">
     <title>Noticia 24h</title>
 </head>
 <body>
     <div class="background-image"></div>
     <header>
         <div class="header-desktop">
-            <div>
+            <div class="infos">
                 <span>24 de Maio, 2024</span>
                 <span>29° 23° | Penedo-AL</span>
             </div>
-            <div>
-                <div>
+            <div class="cambio-container">
+                <div class="cambio">
                     <span>Dólar | 5,14</span>
-                    <div class="up-arrow"></div>
+                    <img src="./assets/images/icons/subiu.svg" alt="seta para cima">
                 </div>
-                <div>
+                <div class="cambio">
                     <span>Dólar | 5,14</span>
-                    <div class="up-arrow"></div>
+                    <img src="./assets/images/icons/subiu.svg" alt="seta para cima">
                 </div>
-                <div>
+                <div class="cambio">
                     <span>Peso | 0,06</span>
-                    <div class="up-arrow"></div>
+                    <img src="./assets/images/icons/baixou.svg" alt="seta para baixo">
                 </div>
             </div>
         </div>
-        <div class="header-mobile">
-            <div>
+        <div class="header-secundary">
+            <div class="search">
                 <img src="./assets/images/icons/lupa.svg" alt="lupa">
                 <span>Buscar</span>
             </div>
             <div>
                 <img src="./assets/images/icons/logo_noticia_24h.svg" alt="logo noticia 24h">
             </div>
-            <div>
+            <div class="social-medias">
                 <img src="./assets/images/icons/x (2).svg" alt="Twitter - X">
                 <img src="./assets/images/icons/facebook.svg" alt="Facebook">
                 <img src="./assets/images/icons/instagram.svg" alt="Intagram">
             </div>
         </div>
-        <nav>
+        <nav class="header-nav">
             <span>Home/</span>
             <img src="./assets/images/icons/cinema.svg" alt="Cinema">
-            <span>Cinema</span>
+            <span><strong>Cinema</strong></span>
         </nav>
     </header>
     <aside class="aside-social-medias">
