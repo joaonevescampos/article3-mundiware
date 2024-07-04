@@ -77,7 +77,7 @@ main {
     margin: 17px 0;
 }
 
-.read-more {
+.section {
     border: 1px solid var(--color-primary);
     border-radius: 6px;
     padding: 10px 20px 22px 20px;
@@ -89,9 +89,10 @@ main {
     gap: 24px;
 }
 
-.read-more h2 {
+.section h2 {
     font-family: var(--font-bold);
     font-size: 48px;
+    line-height: 54px;
 }
 
 .movie-info h3 {
@@ -129,5 +130,96 @@ main {
     line-height: 24px;
     text-align: center;
     margin: 8px 0 34px 0;
+}
+
+.main-subtitle3 {
+    font-size: 36px;
+    font-family: var(--font-bold);
+    line-height: 32px;
+    margin: 16px 0;
+}
+
+.main-subtitle4 {
+    font-size: 28px;
+    font-family: var(--font-bold);
+    line-height: 32px;
+    margin: 16px 0;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    padding: 26px 53px 12px 22px;
+    width: 390px;
+    gap: 40px;
+    border-radius: 6px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.description h4 {
+    font-family: var(--font-bold);
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.cinema-infos li {
+    position: relative; 
+    padding: 10px 0 10px 18px;
+    font-size: 22px;
+    line-height: 23px;
+    color: var(--color-black-1);
+}
+
+.cinema-infos li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+}
+
+.cinema-infos li a {
+    text-decoration: underline;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 68px 0;
+}
+
+.tags h2 {
+    font-family: var(--font-bold);
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.tags ul {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.tags li {
+    padding: 8px 18px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    font-family: var(--font-bold);
+}
+
+.tags a {
+    color: var(--color-black-1);
 }
 
