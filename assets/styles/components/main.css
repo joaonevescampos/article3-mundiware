@@ -7,6 +7,7 @@ main {
     box-sizing: border-box;
     z-index: 999;
     width: 100%;
+    max-width: 1490px;
 }
 
 .main-container {
@@ -124,6 +125,10 @@ main {
     justify-content: center;
 }
 
+.movie-cine-container img {
+    width: 708px;
+}
+
 .movie-cine-container figcaption {
     color: var(--color-gray-4);
     font-size: 12px;
@@ -221,5 +226,102 @@ main {
 
 .tags a {
     color: var(--color-black-1);
+}
+
+.section-cinema {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 33px;
+    font-family: var(--font-bold);
+}
+
+.title-cinema {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-cinema h2 {
+    font-size: 48px;
+    line-height: 54px;
+    margin-right: 8px;
+}
+
+.section-cinema span {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.banners {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 24px;
+    width: 900px;
+    height: 500px;
+}
+
+.cinema-img1, .cinema-img2, .cinema-img3 {
+    position: relative;
+}
+
+.cinema-content {
+    position: absolute;
+    width: 246px;
+    color: var(--color-white);
+    z-index: 999;
+    padding: 12px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.cinema-description {
+    margin-top: 116px;
+}
+
+.cinema-content h2 {
+    font-family: var(--font-bold);
+    font-size: 12px;
+    border-left: 4px solid var(--color-primary);
+    line-height: 15px;
+    padding: 0 3px;
+}
+
+.cinema-content p {
+    font-family: var(--font-bold);
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.banners img {
+    width: 246px;
+    border-radius: 6px;
+}
+
+.shadow-effect1, .shadow-effect2, .shadow-effect3 {
+    position: absolute;
+    background: transparent linear-gradient(180deg, #1C1C1C00 0%, #1C1C1C 100%) 0% 0% no-repeat padding-box;
+    z-index: 999;
+    width: 246px;
+    height: 302px;
+}
+
+.cinema-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 90px;
+    height: 28px;
+    background: #1D1C1D 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.cinema-icons img {
+    width: 18px;
 }
 
