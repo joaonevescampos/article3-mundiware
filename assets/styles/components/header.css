@@ -59,10 +59,18 @@ header {
     align-items: center;
 }
 
+.menu {
+    display: none;
+}
+
 .search {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.search img {
+    cursor: pointer;
 }
 
 .social-medias {

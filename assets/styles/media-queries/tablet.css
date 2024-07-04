@@ -1,0 +1,34 @@
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    /* HEADER  */
+    .header-desktop, .line {
+        display: none;
+    }
+
+    .social-medias {
+        display: none;
+    }
+
+    .header-secundary {
+        flex-direction: row-reverse;
+    }
+
+
+    main {
+        grid-template-columns: 100%;
+    }
+
+    .banners {
+        display: none;
+        flex-direction: column;
+    }
+
+
+    .aside-icons {
+        display: none;
+    }
+
+
+    .header-footer {
+        flex-direction: column;
+    }
+}
