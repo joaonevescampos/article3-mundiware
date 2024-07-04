@@ -1,0 +1,36 @@
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    main {
+        grid-template-columns: 65% 35%;
+        gap: 30px;
+        padding: 0 80px;
+    }
+
+    /* ASIDE  */
+
+    .aside-social-medias {
+        left: 20px;
+    }
+
+    .aside-icons {
+        left: calc(100% - 82px);
+    }
+
+    .aside-container {
+        width: 300px;
+    }
+
+    .newsletter {
+        width: 280px;
+        height: 282px;
+    }
+
+    .ads1-desktop {
+        width: 280px;
+    }
+
+    /* FOOTER  */
+
+    .header-footer {
+        gap: 10px;
+    }
+}

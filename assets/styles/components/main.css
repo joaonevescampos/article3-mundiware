@@ -123,10 +123,11 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .movie-cine-container img {
-  width: 708px;
+  width: calc(100% - 80px);
 }
 
 .movie-cine-container figcaption {
@@ -260,12 +261,8 @@ main {
   align-items: start;
   gap: 24px;
   width: 900px;
-  height: 500px;
+  margin-bottom: 50px;
 }
-
-/* .cinema-img1, .cinema-img2, .cinema-img3 {
-    position: relative;
-} */
 
 .cinema-content {
   width: 246px;

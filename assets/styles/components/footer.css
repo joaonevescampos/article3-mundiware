@@ -22,7 +22,7 @@ footer {
     display: flex;
     gap: 24px;
     justify-content: space-between;
-    min-width: 650px;
+    min-width: 600px;
 }
 
 .section-footer h2 {

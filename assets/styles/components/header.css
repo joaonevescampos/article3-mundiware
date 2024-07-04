@@ -23,6 +23,8 @@ header {
     color: var(--color-white);
     font-family: var(--font-regular);
     padding: 9px 145px 30px 145px;
+    max-width: 1490px;
+    margin: auto;
 }
 
 .header-desktop {
