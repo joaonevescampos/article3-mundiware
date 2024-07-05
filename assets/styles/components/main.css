@@ -53,13 +53,20 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  width: 100%;
 }
 
-.author {
+.author-img {
+  padding: 10px;
+}
+
+.author-infos {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.author-infos strong {
   padding: 10px;
   border-right: 1px solid var(--color-gray-0);
 }
