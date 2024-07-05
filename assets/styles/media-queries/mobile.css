@@ -1,278 +1,331 @@
 @media screen and (max-width: 600px) {
-    /* HEADER  */
-    .background-image {
-        background-image: url(../../images/pictures/foto-mobile.png);
-        height: 700px;
+  /* HEADER  */
+  .background-image {
+      background-image: url(../../images/pictures/foto-mobile.png);
+      height: 680px;
+  }
+
+  .background-shadow {
+      height: 680px;
+  }
+
+  header {
+      padding: 24px 20px;
+  }
+
+  .header-desktop, .line {
+      display: none;
+  }
+
+  .social-medias {
+      display: none;
+  }
+
+  .header-secundary {
+      flex-direction: row-reverse;
+      align-items: center;
+  }
+
+  .menu {
+      display: flex;
+      cursor: pointer;
+  }
+
+  .search span {
+      display: none;
+  }
+
+  .header-nav {
+      font-size: 16px;
+      margin: 20px 0 246px 0;
+
+  }
+
+  /* MAIN  */
+  main {
+      grid-template-columns: 100%;
+      padding: 20px;
+      gap: 0;
+  }
+
+  .main-title {
+      text-align: start;
+      font-size: 30px;
+      line-height: 34px;
+  }
+
+  .main-subtitle {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: start;
+  }
+
+  .cover {
+      align-items: start;
+  }
+
+  .references {
+      justify-content: start;
+      align-items: start;
+    }
+    
+    .author-img {
+      padding-right: 10px;
+    }
+    
+    .author-infos {
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 5px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    
+    .author-infos strong {
+      text-align: start;
+      padding: 10px 0 0 0;
+      border-right: none;
+      margin: 0;
     }
 
-    .background-shadow {
-        height: 700px;
+    .figcaption {
+      display: none;
     }
 
-    header {
-        padding: 24px 20px;
+  .paragraph {
+      font-size: 18px;
+      line-height: 28px;
+      margin: 15px 0;
     }
 
-    .header-desktop, .line {
-        display: none;
+    .section h2 {
+      font-size: 36px;
+      line-height: 38px;
     }
 
-    .social-medias {
-        display: none;
+    .movie-container {
+      flex-direction: column;
     }
 
-    .header-secundary {
-        flex-direction: row-reverse;
-        align-items: center;
+    .movie-info h3 {
+      font-size: 12px;
     }
 
-    .menu {
-        display: flex;
-        cursor: pointer;
+    .movie-info p {
+      font-size: 16px;
+      line-height: 22px;
     }
 
-    .search span {
-        display: none;
+    .movie-cine-container img {
+      width: 100%;
     }
 
-    .header-nav {
-        font-size: 16px;
-        margin: 20px 0 246px 0;
-
+    .main-subtitle3 {
+      font-size: 26px;
+      line-height: 32px;
     }
 
-    /* MAIN  */
-    main {
-        grid-template-columns: 100%;
-        padding: 20px;
-        gap: 0;
+    .main-subtitle4 {
+      font-size: 22px;
+      line-height: 26px;
     }
 
-    .main-title {
-        text-align: start;
-        font-size: 30px;
-        line-height: 34px;
+    .learn-more {
+      padding: 10px 14px 14px 14px;
+      width: 100%;
     }
 
-    .main-subtitle {
-        font-size: 16px;
-        line-height: 22px;
-        text-align: start;
+    .learn-more h4 {
+      font-size: 14px;
+      line-height: 18px;
     }
 
-    .cover {
-        align-items: start;
+    .learn-more span {
+      font-size: 12px;
+      line-height: 15px
     }
 
-    .references {
-        justify-content: start;
-        align-items: start;
-      }
-      
-      .author-img {
-        padding-right: 10px;
-      }
-      
-      .author-infos {
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        gap: 5px;
-      }
-      
-      .author-infos strong {
-        text-align: start;
-        padding-top: 10px;
-        border-right: none;
-        margin: 0;
-      }
-
-    .paragraph {
-        font-size: 18px;
-        line-height: 28px;
-        margin: 15px 0;
-      }
-
-      .section h2 {
-        font-size: 36px;
-        line-height: 38px;
-      }
-
-      .movie-container {
-        flex-direction: column;
-      }
-
-      .movie-info h3 {
-        font-size: 12px;
-      }
-
-      .movie-info p {
-        font-size: 16px;
-        line-height: 22px;
-      }
-
-      .movie-cine-container img {
-        width: 100%;
-      }
-
-      .main-subtitle3 {
-        font-size: 26px;
-        line-height: 32px;
-      }
-
-      .main-subtitle4 {
-        font-size: 22px;
-        line-height: 26px;
-      }
-
-      .learn-more {
-        padding: 10px 14px 14px 14px;
-        width: 100%;
-      }
-
-      .learn-more h4 {
-        font-size: 14px;
-        line-height: 18px;
-      }
-
-      .learn-more span {
-        font-size: 12px;
-        line-height: 15px
-      }
-
-      .learn-more strong {
-        font-size: 12px;
-        line-height: 15px;
-      }
-
-      .cinema-infos li {
-        font-size: 16px;
-        line-height: 22px;
-      }
-
-      .tags {
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        margin: 40px 0;
-      }
-
-      .tags h2 {
-        font-size: 36px;
-        line-height: 45px;
-      }
-
-      .section-cinema h2 {
-        font-size: 36px;
-        line-height: 45px;
-      }
-
-        .banners {
-        flex-direction: column;
-        width: 100%;
-      }
-      
-      .cinema-content {
-        width: 320px;
-        padding: 12px 20px 20px 20px;
-      }
-      
-      .position1 {
-        top: 0;
-        left: 0;
-      }
-      
-      .position2 {
-        top: 250px;
-        left: 0;
-      }
-      
-      .position3 {
-        top: 500px;
-        left: 0;
-      }
-      
-      .cinema-description {
-        margin-top: 73px;
-      }
-      
-      .cinema-content h2 {
-        font-size: 12px;
-        line-height: 15px;
-      }
-
-      .img-mobile {
-        display: flex;
-        width: 100%;
-      }
-
-      .img-mobile img {
-        width: 320px;
-      }
-
-      .img-desktop {
-        display: none;
-      }
-      
-      .shadow-effect1 {
-        background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
-          0% no-repeat padding-box;
-        width: 320px;
-        height: 226px;
-      }
-      
-      .shadow-effect2 {
-        top: 250px;
-        left: 0;
-        background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
-          0% no-repeat padding-box;
-        width: 320px;
-        height: 226px;
-      }
-      
-      .shadow-effect3 {
-        top: 500px;
-        left: 0px;
-        background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
-          0% no-repeat padding-box;
-        width: 320px;
-        height: 226px;
-      }
-
-    /* ASIDE  */
-    .aside-icons {
-        display: none;
+    .learn-more strong {
+      font-size: 12px;
+      line-height: 15px;
     }
 
-    .aside-social-medias {
-        flex-direction: row;
-        top: calc(100% - 76px);
-        left: 0;
-        width: 100%;
+    .cinema-infos li {
+      font-size: 16px;
+      line-height: 22px;
     }
 
-    .aside-container {
-        background-color: var(--color-white-0);
-        border: 1px solid var(--color-primary);
-        width: 100%;
-        margin: 0 0 30px 0;
+    .tags {
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      margin: 40px 0;
     }
 
-    .aside-container h2 {
-        font-size: 36px;
-        line-height: 38px;
-        color: var(--color-black-1);
+    .tags h2 {
+      font-size: 36px;
+      line-height: 45px;
     }
 
-    .ads1-desktop-container {
-        display: none;
+    .section-cinema h2 {
+      font-size: 36px;
+      line-height: 45px;
     }
 
-    .newsletter {
-        width: 100%;
-        max-width: 600px;
-        margin-bottom: 10px;
+      .banners {
+      flex-direction: column;
+      width: 100%;
     }
+    
+    .cinema-content {
+      width: 320px;
+      padding: 12px 20px 20px 20px;
+    }
+    
+    .position1 {
+      top: 0;
+      left: 0;
+    }
+    
+    .position2 {
+      top: 250px;
+      left: 0;
+    }
+    
+    .position3 {
+      top: 500px;
+      left: 0;
+    }
+    
+    .cinema-description {
+      margin-top: 73px;
+    }
+    
+    .cinema-content h2 {
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .img-mobile {
+      display: flex;
+      width: 100%;
+    }
+
+    .img-mobile img {
+      width: 320px;
+    }
+
+    .img-desktop {
+      display: none;
+    }
+    
+    .shadow-effect1 {
+      background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
+        0% no-repeat padding-box;
+      width: 320px;
+      height: 226px;
+    }
+    
+    .shadow-effect2 {
+      top: 250px;
+      left: 0;
+      background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
+        0% no-repeat padding-box;
+      width: 320px;
+      height: 226px;
+    }
+    
+    .shadow-effect3 {
+      top: 500px;
+      left: 0px;
+      background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
+        0% no-repeat padding-box;
+      width: 320px;
+      height: 226px;
+    }
+
+  /* ASIDE  */
+  .aside-icons {
+      display: none;
+  }
+
+  .aside-social-medias {
+      flex-direction: row;
+      top: calc(100% - 87px);
+      left: 0;
+      gap: 24px;
+      width: 100%;
+      height: 87px;
+      border-radius: none;
+      font-size: 12px;
+  }
+
+    .listen-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: start;
+      padding-right: 24px;
+      border: none;
+      border-right: 1px solid var(--color-gray-2);
+  }
+  
+  .listen-container img {
+      width: 46px;
+      height: 46px;
+  }
+  
+  .social-icons {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+  }
+  
+  .social-icons img {
+      width: 40px;
+      height: 40px;
+  }
+
+  .share-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 8px;
+  }
+  
+  .share {
+      display: block;
+  }
+  
+  .aside-icons {
+      display: none;
+  }
+
+  .aside-container {
+      background-color: var(--color-white-0);
+      border: 1px solid var(--color-primary);
+      width: 100%;
+      margin: 0 0 30px 0;
+  }
+
+  .aside-container h2 {
+      font-size: 36px;
+      line-height: 38px;
+      color: var(--color-black-1);
+  }
+
+  .ads1-desktop-container {
+      display: none;
+  }
+
+  .newsletter {
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 10px;
+  }
 
     /* FOOTER  */
 

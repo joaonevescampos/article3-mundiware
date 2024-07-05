@@ -1,6 +1,6 @@
 .aside-social-medias {
     position: fixed;
-    top: 424px;
+    top: 400px;
     left: 40px;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,37 @@
     background-color: var(--color-white);
     box-shadow: 0px 5px 10px #0000001A;
     border-radius: 6px;
+    z-index: 9999;
+}
+
+.listen-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-gray-2);
+}
+
+.listen-container img {
+    width: 46px;
+    height: 46px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.share {
+    display: none;
 }
 
 .aside-icons {
@@ -26,8 +57,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
