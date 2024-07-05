@@ -28,12 +28,13 @@ Confira a idealização do projeto:
 [Acessar figma]()
 
 ### Prévia
+
 #### Versão desktop
-![Macbook-Air-joaonevescampos github io]()
+![Macbook-Air-joaonevescampos github io (1)](https://github.com/joaonevescampos/Treinamento-front-Article-2/assets/126534395/5fd78485-667e-400a-af56-23449d9088f9)
 #### Versão Tablet
-![Galaxy-Tab-S7-joaonevescampos github io]()
+![iPad-PRO-11-joaonevescampos github io](https://github.com/joaonevescampos/Treinamento-front-Article-2/assets/126534395/7142d833-aeab-4f1d-9696-b987fa8f20d0)
 #### Versão Mobile
-![iPhone-13-PRO-joaonevescampos github io]()
+![iPhone-13-PRO-joaonevescampos github io (1)](https://github.com/joaonevescampos/Treinamento-front-Article-2/assets/126534395/d0d5963f-2e48-440d-bd0b-12d5b1402652)
 
 ## Autoria
 - Desenvolvedor: João Victor Neves Campos de Jesus

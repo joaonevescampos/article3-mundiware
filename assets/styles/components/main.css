@@ -244,11 +244,16 @@ main {
   text-decoration: underline;
 }
 
+hr {
+  margin: 34px 0;
+  width: 100%;
+}
+
 .tags {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin: 68px 0;
+  margin: 34px 0;
 }
 
 .tags h2 {

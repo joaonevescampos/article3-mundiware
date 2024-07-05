@@ -26,6 +26,10 @@
     height: 46px;
 }
 
+/* .listen-container:hover {
+    background-color: var(--color-primary);
+} */
+
 .social-icons {
     display: flex;
     align-items: center;
