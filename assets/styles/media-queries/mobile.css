@@ -229,7 +229,10 @@
     }
 
     .aside-social-medias {
-        display: none;
+        flex-direction: row;
+        top: calc(100% - 76px);
+        left: 0;
+        width: 100%;
     }
 
     .aside-container {
