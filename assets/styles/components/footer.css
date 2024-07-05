@@ -22,15 +22,12 @@ footer {
     display: flex;
     gap: 24px;
     justify-content: space-between;
-    min-width: 600px;
 }
 
 .section-footer h2 {
     font-family: var(--font-bold);
     font-size: 27px;
     line-height: 30px;
-    /* width: 200px; */
-
 }
 
 .section-footer ul {
@@ -50,6 +47,11 @@ footer {
 }
 
 .divide-column {
+    display: flex;
+    gap: 40px;
+}
+
+.mobile-group {
     display: flex;
     gap: 40px;
 }

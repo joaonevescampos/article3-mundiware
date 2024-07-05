@@ -45,6 +45,7 @@
     main {
         grid-template-columns: 100%;
         padding: 20px;
+        gap: 0;
     }
 
     .main-title {
@@ -70,10 +71,157 @@
         border: none;
     }
 
-    .banners {
-        display: none;
+    .paragraph {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 15px 0;
+      }
+
+      .section h2 {
+        font-size: 36px;
+        line-height: 38px;
+      }
+
+      .movie-container {
         flex-direction: column;
-    }
+      }
+
+      .movie-info h3 {
+        font-size: 12px;
+      }
+
+      .movie-info p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      .movie-cine-container img {
+        width: 100%;
+      }
+
+      .main-subtitle3 {
+        font-size: 26px;
+        line-height: 32px;
+      }
+
+      .main-subtitle4 {
+        font-size: 22px;
+        line-height: 26px;
+      }
+
+      .learn-more {
+        padding: 10px 14px 14px 14px;
+        width: 100%;
+      }
+
+      .learn-more h4 {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      .learn-more span {
+        font-size: 12px;
+        line-height: 15px
+      }
+
+      .learn-more strong {
+        font-size: 12px;
+        line-height: 15px;
+      }
+
+      .cinema-infos li {
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      .tags {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 40px 0;
+      }
+
+      .tags h2 {
+        font-size: 36px;
+        line-height: 45px;
+      }
+
+      .section-cinema h2 {
+        font-size: 36px;
+        line-height: 45px;
+      }
+
+        .banners {
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .cinema-content {
+        width: 320px;
+        padding: 12px 20px 20px 20px;
+      }
+      
+      .position1 {
+        top: 0;
+        left: 0;
+      }
+      
+      .position2 {
+        top: 250px;
+        left: 0;
+      }
+      
+      .position3 {
+        top: 500px;
+        left: 0;
+      }
+      
+      .cinema-description {
+        margin-top: 73px;
+      }
+      
+      .cinema-content h2 {
+        font-size: 12px;
+        line-height: 15px;
+      }
+
+      .img-mobile {
+        display: flex;
+        width: 100%;
+      }
+
+      .img-mobile img {
+        width: 320px;
+      }
+
+      .img-desktop {
+        display: none;
+      }
+      
+      .shadow-effect1 {
+        background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
+          0% no-repeat padding-box;
+        width: 320px;
+        height: 226px;
+      }
+      
+      .shadow-effect2 {
+        top: 250px;
+        left: 0;
+        background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
+          0% no-repeat padding-box;
+        width: 320px;
+        height: 226px;
+      }
+      
+      .shadow-effect3 {
+        top: 500px;
+        left: 0px;
+        background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%
+          0% no-repeat padding-box;
+        width: 320px;
+        height: 226px;
+      }
 
     /* ASIDE  */
     .aside-icons {
@@ -84,12 +232,83 @@
         display: none;
     }
 
-    /* FOOTER  */
-    .header-footer {
-        flex-direction: column;
+    .aside-container {
+        background-color: var(--color-white-0);
+        border: 1px solid var(--color-primary);
+        width: 100%;
+        margin: 0 0 30px 0;
     }
 
-    footer {
+    .aside-container h2 {
+        font-size: 36px;
+        line-height: 38px;
+        color: var(--color-black-1);
+    }
+
+    .ads1-desktop-container {
         display: none;
+    }
+
+    .newsletter {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER  */
+
+    footer {
+        padding: 26px 20px 24px 20px;
+        height: 700px;
+        width: 100%;
+    }
+
+    .header-footer {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    
+    .nav-footer {
+        flex-direction: column;
+        gap: 40px;
+        min-width: none;
+    }
+
+    .nav-footer img {
+        width: 208px;
+    }
+    
+    .section-footer h2 {
+        font-size: 24px;
+    }
+    
+    .section-footer ul {
+        margin-top: 15px;
+    }
+    
+    .section-footer li {
+        font-size: 16px;
+    }
+
+    .mobile-group {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .rights {
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+        gap: 40px;
+    }
+    
+    .rights small {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .rights span {
+        font-size: 12px;
+        line-height: 15px;
     }
 }

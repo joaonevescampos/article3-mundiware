@@ -314,6 +314,10 @@ main {
   border-radius: 6px;
 }
 
+.img-mobile {
+  display: none;
+}
+
 .shadow-effect1 {
   position: absolute;
   background: transparent linear-gradient(180deg, #1c1c1c00 0%, #1c1c1c 100%) 0%

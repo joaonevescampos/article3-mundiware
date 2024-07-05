@@ -47,6 +47,9 @@
     padding: 20px;
     width: 384px;
     box-sizing: border-box;
+    background-color: var(--color-white-0);
+    border: 1px solid var(--color-gray-1);
+    border-radius: 6px;
 }
 
 .aside-container h2 {
