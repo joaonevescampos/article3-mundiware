@@ -48,8 +48,10 @@ header {
     gap: 10px;
 }
 
-.line {
-    color: var(--color-black);
+.line-header {
+    border: none;
+    border-top: 1px solid var(--color-black);
+    opacity: .5;
     margin: 9px 0 20px 0;
 }
 

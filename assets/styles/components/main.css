@@ -244,7 +244,10 @@ main {
   text-decoration: underline;
 }
 
-hr {
+.line-main {
+  height: 1px;
+  color: var(--color-gray-0);
+  opacity: .7;
   margin: 34px 0;
   width: 100%;
 }
