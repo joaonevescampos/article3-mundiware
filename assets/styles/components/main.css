@@ -245,9 +245,8 @@ main {
 }
 
 .line-main {
-  height: 1px;
-  color: var(--color-gray-0);
-  opacity: .7;
+  border: none;
+  border-top: 1px solid var(--color-gray-0);
   margin: 34px 0;
   width: 100%;
 }
