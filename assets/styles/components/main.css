@@ -76,6 +76,7 @@ main {
   color: var(--color-gray-3);
   text-align: center;
   margin: 20px;
+  font-family: var(--font-regular);
 }
 
 .paragraph {
